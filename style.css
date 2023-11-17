@@ -240,8 +240,11 @@ img {
     margin-right: 200px;
 }
 
-.left-info .p1{
+.left-info .job{
     text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 33px;
 }
 
 
@@ -252,7 +255,7 @@ img {
 
 .left-info hr{
     width: 450px;
-    margin-left: 30px;
+    margin-left: 35px;
     color: #968B52;
 }
 
@@ -263,7 +266,7 @@ img {
 .left-info h2{
     font-size: 50px;
     margin-bottom: 5px;
-    margin-left: 130px;
+    margin-left: 140px;
 }
 
 
@@ -309,7 +312,7 @@ h1{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 
@@ -377,7 +380,7 @@ h1{
     font-size: 24px;
 }
 
-.rectangle p2{
+.specialist{
     font-size: 54px;
     margin-left: 350px;
     align-self: center;
@@ -499,7 +502,6 @@ h3{
     height: 500px;
     padding: 20px;
     background-color: rgb(178, 167, 109, 0.6);
-    text-align: center;
     margin-left: 100px;
     margin-right: 20px;
 }
@@ -515,17 +517,19 @@ h3{
 }
 
 
-.figure1 p{
+.h{
     font-size: 30px;
     font-family: 'Inria Serif', serif;
-    margin-left: -900px;
+    margin-left: 10px;
     margin-top: 0px;
+    text-align: left;
     margin-bottom: 180px;
 }
 
-.figure1 p1{
+.history{
     font-size: 30px;
     font-family: 'Inria Serif', serif;
+    margin-left: 330px;
 }
 
 .figure2 p{
@@ -536,9 +540,10 @@ h3{
     font-family: 'Inria Serif', serif;
 }
 
-.figure2 p1{
+.values{
     font-size: 30px;
     font-family: 'Inria Serif', serif;
+    margin-right: -420px;
 }
 
 
@@ -561,7 +566,7 @@ h3{
     height: 500px;
     padding: 20px;
     background-color: rgb(178, 167, 109, 0.6);
-    text-align: center;
+    text-align: right;
     margin-right: 100px;
     margin-bottom: 20px;
 }
@@ -582,11 +587,13 @@ h3{
     margin-top: 0px;
     margin-left: -350px;
     margin-bottom: 180px;
+    text-align: center;
 }
 
-.figure3 p1{
+.advantages{
     font-size: 30px;
     font-family: 'Inria Serif', serif;
+    margin-right: -350px;
 }
 
 .figure4 p{
@@ -597,9 +604,10 @@ h3{
     margin-bottom: 150px;
 }
 
-.figure4 p1{
+.goals{
     font-size: 30px;
     font-family: 'Inria Serif', serif;
+    margin-right: -380px;
 }
 
 .figure5 {
