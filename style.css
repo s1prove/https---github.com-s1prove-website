@@ -1,0 +1,641 @@
+/* header */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li :last-child{
+    margin-left: 150px;
+}
+
+nav ul li :first-child{
+    margin-right: 150px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+
+
+
+/* footer */
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container::before,
+.footer-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+
+.footer-left{
+    margin-left: 100px;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+}
+
+.footer-left h2,
+.footer-right h2 {
+    font-size: 28px; 
+    margin-bottom: 10px;
+    font-family: 'Inria Serif', serif; 
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+}
+
+.email-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.email-input button {
+    background-color: #C8C19E;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    font-family: 'Inria Serif', serif;
+    font-size: 20px;
+}
+
+.footer-right{
+    text-align: right;
+    margin-right: 200px;
+}
+
+.footer-right h2{
+    margin-right: 190px;
+}
+
+.footer-right hr {
+    border: 0.5px solid #968B52;
+    margin: 10px 10px;
+    width: 60%;
+    margin-left: 280px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 60px; 
+    margin-right: 40px;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container2 .bottom-line {
+    border: 0.5px solid #968B52;
+    width: 100%;
+    margin-top: 60px; 
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; 
+    margin-bottom: 0px;
+}
+
+.footer-list li {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inria Serif', serif;
+    font-size: 24px;
+}
+
+
+
+/* main  */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+img {
+    display: block; 
+    width: 100%;
+    height: auto; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    background-color: rgba(133, 125, 91, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 225px;
+    margin-left: 390px;
+}
+
+.text-container {
+    text-align: center;
+    color: white;
+    font-family: 'Inria Serif', serif;
+}
+
+.text-container p {
+    margin: 0;
+    font-size: 70px;
+}
+
+
+
+/* information part (main)*/
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin-bottom: 220px;
+    margin-right: 350px;
+    margin-left: 320px;
+    
+}
+
+.info-container img{
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.left-info,
+.right-info {
+    flex: 1;
+    padding: 0 20px;
+    font-family: 'Inria Serif', serif;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.left-info .p1{
+    text-align: center;
+}
+
+
+.right-info img {
+    width: 100%; 
+    height: auto; 
+}
+
+.left-info hr{
+    width: 450px;
+    margin-left: 30px;
+    color: #968B52;
+}
+
+.left-info p{
+    margin-left: 60px;
+}
+
+.left-info h2{
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-left: 130px;
+}
+
+
+.left-info p1{
+    font-size: 40px;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 25%;
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1550px;
+    margin-left: 800px;
+}
+
+.text-container2 {
+    text-align: center;
+    color: white;
+    font-family: 'Inria Serif', serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* SERVICES */
+
+h1{
+    font-family: 'Inria Serif', serif;     
+    margin-left: -1500px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.square {
+    width: 400px; 
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.square p{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+
+.square img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 10px; 
+    margin-left: 140px;
+}
+
+
+/* TEAM */
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inria Serif', serif;  
+    flex-direction: column;
+}
+
+
+.rectangle {
+    display: flex;
+    width: 1600px;
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.rectangle img{
+    max-width: 55%;
+    margin-top: 8px;
+}
+
+.personal{
+    text-align: left;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: -200px;
+}
+
+.personal p {
+    font-size: 24px;
+}
+
+.rectangle p2{
+    font-size: 54px;
+    margin-left: 350px;
+    align-self: center;
+}
+
+.personal button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    font-size: 24px;
+    margin-top: 80px;
+    cursor: pointer;
+    font-family: 'Inria Serif', serif;  
+}
+
+
+/* CONTACTS */
+
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 54px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-family: 'Inria Serif', serif; 
+}
+
+.form{
+    margin-top: 100px;
+}
+
+.form2,
+.form3,
+.form4,
+.form5{
+    margin-top: 30px;
+}
+
+.figure {
+    width: 800px; 
+    height: 800px; 
+    background-color: #C8C19E;
+    margin-top: 20px; 
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.figure input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    box-sizing: border-box;
+    display: block;
+    border: #C8C19E;
+    outline: none;
+    background-color: #C8C19E;
+    color:#ffffff;
+    font-size: 30px;
+    font-family: 'Inria Serif', serif; 
+}
+
+.figure input::placeholder {
+    color: #ffffff; 
+}
+
+.figure .line {
+    width: 480px;
+    border: none;
+    height: 1px;
+    margin-left: 530px;
+    background-color: #ffffff; 
+    position: absolute;
+    left: 10%; 
+}
+
+.send-button {
+    width: 25%;
+    height: 70px;
+    padding: 10px;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: 'Inria Serif', serif; 
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    cursor: pointer;
+    align-items: center;
+    align-self: center;
+}
+
+
+/* ABOUT US */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: -30px;
+
+}
+
+
+.figure1 {
+    width: 1000px; 
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.figure2 {
+    width: 500px; 
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+
+.figure1 p{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+    margin-left: -900px;
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+
+.figure1 p1{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+
+.figure2 p{
+    font-size: 30px;
+    margin-left: -420px;
+    margin-top: 0px;
+    margin-bottom: 180px;
+    font-family: 'Inria Serif', serif;
+}
+
+.figure2 p1{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+
+
+/* Bottom figures "About Us" */
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+}
+
+
+.figure3 {
+    width: 500px; 
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.figure4 {
+    width: 500px; 
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-right: 100px;
+}
+
+
+.figure3 p{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+    margin-top: 0px;
+    margin-left: -350px;
+    margin-bottom: 180px;
+}
+
+.figure3 p1{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+
+.figure4 p{
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: 'Inria Serif', serif;
+    margin-left: -410px;
+    margin-bottom: 150px;
+}
+
+.figure4 p1{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+}
+
+.figure5 {
+    position: relative;
+    width: 1000px; 
+    height: 960px;
+    padding: 20px;
+    background-color: rgb(178, 167, 109, 0.6);
+    text-align: center;
+    margin-right: 100px;
+    margin-left: -80px;
+}
+
+.figure5 p{
+    font-size: 30px;
+    font-family: 'Inria Serif', serif;
+    margin-top: 0px;
+    margin-left: -900px;
+    margin-bottom: 80px;
+}
+
+.figure5 img{
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 200px; 
+    margin-left: 100px;
+    position: absolute;
+}
+
+.second_image{
+    right: 0;
+    margin-right: 120px;
+    margin-top: 230px;
+}
+
+.third_image{
+    left: 0;
+    margin-top: 500px;
+}
